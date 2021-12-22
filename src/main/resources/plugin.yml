@@ -1,0 +1,8 @@
+name: VoiceCore
+version: '${project.version}'
+main: testg.test.VoiceCore
+api-version: 1.18
+commands:
+    global:
+      description: "does stuff"
+depend: [OpenAudioMc]
